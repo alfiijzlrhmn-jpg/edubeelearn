@@ -1,0 +1,159 @@
+.header {
+  width: 100%;
+  background: #ffffff;          /* kotak putih */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  position: sticky;             /* biar nempel atas */
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  padding: 14px 16px;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center; /* tengah horizontal */
+  align-items: center;     /* tengah vertikal */
+  height: 100vh;           /* setinggi layar */
+}
+
+.dashboard-img {
+  max-width: 500px;
+  height: auto;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+}
+
+.dashboard-img {
+  width: 550px;
+}
+
+/* Animasi fade in */
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* naik dikit biar halus */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f4fd8;               /* biru Edu */
+}
+
+.header {
+  background: #eef4ff;
+}
+
+.materi {
+  padding: 16px;
+}
+
+.materi h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.materi-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: #ffffff;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+
+  border-radius: 14px;
+  text-decoration: none;
+  color: #222;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.materi-icon {
+  font-size: 20px;
+}
+
+.materi-text {
+  flex: 1;
+  font-size: 15px;
+}
+
+.materi-arrow {
+  font-size: 20px;
+  color: #1f4fd8;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf2ff; /* biru muda */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #1e40af; /* biru tua */
+}
+
+
+p {
+  color: #1f2933;
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card {
+  background: #ffffff;
+  border-left: 6px solid #2563eb;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
