@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabulary - Daily Activities</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Vocabulary: Daily Activities</h1>
+
+<div class="card">
+  <img src="take a bath/mandi.png" style="width:100px">
+  <h3>Wake up</h3>
+  <p>Bangun tidur</p>
+  <button onclick="playSound('wake')">🔊 Listen</button>
+</div>
+
+<div class="card">
+  <img src="take a bath/mandi.png" style="width:100px">
+  <h3>Take a bath</h3>
+  <p>Mandi</p>
+  <button onclick="playSound('Take a bath')">🔊 Listen</button>
+</div>
+
+<div class="card">
+  <img src="take a bath/mandi.png" style="width:100px">
+  <h3>Eat</h3>
+  <p>Makan</p>
+  <button onclick="playSound('school')">🔊 Listen</button>
+</div>
+
+<div class="card">
+  <h3>Study</h3>
+  <p>Belajar</p>
+  <button onclick="playSound('study')">🔊 Listen</button>
+</div>
+
+<div class="card">
+  <h3>Play</h3>
+  <p>Bermain</p>
+  <button onclick="playSound('play')">🔊 Listen</button>
+</div>
+
+<a href="index.html">⬅ Back</a>
+
+<audio id="wake" src="audio/wakeup.mp3"></audio>
+<audio id="school" src="audio/school.mp3"></audio>
+
+<script>
+function playSound(id) {
+  document.getElementById(id).play();
+}
+</script>
+
+</body>
+</html>
