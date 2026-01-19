@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduBee | English Learning</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  
+<header class="header">
+  <div class="header-inner">
+    <img src="edubee logo/edubee logo.png" alt="edubee logo" class="logo">
+    <span class="brand">EduBee</span>
+  </div>
+</header>
+<br><br>
+
+  <!-- CARD DESKRIPSI -->
+    <h2>Welcome To Edubee</h2>
+    <p>
+    <br>
+<div class="dashboard">
+  <img src="dasbord/dasbord.png" class="dashboard-img fade-in">
+</div>
+    <br>
+      EduBee is a web-based learning media designed to help
+      seventh grade students learn English vocabulary
+      through simple materials, audio pronunciation, and quizzes.
+    </p>
+  </div>
+
+  <!-- MENU UTAMA -->
+  <div class="card">
+    <h2>Vocabulary Materials</h2>
+
+    <a href="daily activities materi.html">
+      <button>📘 Daily Activities (Kegiatan sehari hari)</button>
+    </a>
+    <br>
+   <a href="daily activities materi.html">
+      <button>📘 Greeting (Salam)</button>
+    </a>
+    <br>
+   <a href="daily activities materi.html">
+      <button>📘 Introduction (perkenalan)</button>
+    </a>
+    <br>
+   <a href="daily activities materi.html">
+      <button>📘 Scholl Objects (benda di sekolah)</button>
+    </a>
+    <br><br>
+
+  </div>
+  
+  <div class="card">
+    <h2>Quiz</h2>
+
+    <br><br>
+
+    <button onclick="cekJawaban()">📝 Take a Quiz</button>
+
+    <p id="hasil"></p>
+  </div>
+
+  <!-- AUDIO FEEDBACK -->
+  <audio id="audioBenar" src="audio/benar.mp3"></audio>
+  <audio id="audioSalah" src="audio/salah.mp3"></audio>
+
+  <!-- SCRIPT -->
+  <script src="js/quiz.js"></script>
+  
+
+
+</body>
+</html>
